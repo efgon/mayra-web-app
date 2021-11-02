@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/mayra-web-app/static/css/main.a3ce6fc4.chunk.css",
-    "main.js": "/mayra-web-app/static/js/main.c8d77b48.chunk.js",
-    "main.js.map": "/mayra-web-app/static/js/main.c8d77b48.chunk.js.map",
+    "main.js": "/mayra-web-app/static/js/main.e17d9439.chunk.js",
+    "main.js.map": "/mayra-web-app/static/js/main.e17d9439.chunk.js.map",
     "runtime-main.js": "/mayra-web-app/static/js/runtime-main.4eeaec67.js",
     "runtime-main.js.map": "/mayra-web-app/static/js/runtime-main.4eeaec67.js.map",
     "static/css/2.818011ed.chunk.css": "/mayra-web-app/static/css/2.818011ed.chunk.css",
-    "static/js/2.52dc085a.chunk.js": "/mayra-web-app/static/js/2.52dc085a.chunk.js",
-    "static/js/2.52dc085a.chunk.js.map": "/mayra-web-app/static/js/2.52dc085a.chunk.js.map",
+    "static/js/2.d28b84cc.chunk.js": "/mayra-web-app/static/js/2.d28b84cc.chunk.js",
+    "static/js/2.d28b84cc.chunk.js.map": "/mayra-web-app/static/js/2.d28b84cc.chunk.js.map",
     "index.html": "/mayra-web-app/index.html",
     "static/css/2.818011ed.chunk.css.map": "/mayra-web-app/static/css/2.818011ed.chunk.css.map",
     "static/css/main.a3ce6fc4.chunk.css.map": "/mayra-web-app/static/css/main.a3ce6fc4.chunk.css.map",
-    "static/js/2.52dc085a.chunk.js.LICENSE.txt": "/mayra-web-app/static/js/2.52dc085a.chunk.js.LICENSE.txt",
+    "static/js/2.d28b84cc.chunk.js.LICENSE.txt": "/mayra-web-app/static/js/2.d28b84cc.chunk.js.LICENSE.txt",
     "static/media/Diseno-sin-titulo.b89dc292.png": "/mayra-web-app/static/media/Diseno-sin-titulo.b89dc292.png",
     "static/media/IMG_0660.9c5a0a11.JPG": "/mayra-web-app/static/media/IMG_0660.9c5a0a11.JPG",
     "static/media/IMG_0665.fe215da4.JPG": "/mayra-web-app/static/media/IMG_0665.fe215da4.JPG",
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.4eeaec67.js",
     "static/css/2.818011ed.chunk.css",
-    "static/js/2.52dc085a.chunk.js",
+    "static/js/2.d28b84cc.chunk.js",
     "static/css/main.a3ce6fc4.chunk.css",
-    "static/js/main.c8d77b48.chunk.js"
+    "static/js/main.e17d9439.chunk.js"
   ]
 }
