@@ -14,7 +14,7 @@ function MiLibro() {
     <div className="App libros">
       <NavBar />
       <Header text="Libros" src={""} />
-      <Container>
+      <Container fluid className="mb-5">
         <Card.Title
           as="h3"
           className="text-center"
@@ -26,12 +26,12 @@ function MiLibro() {
           <Col>
             <Card
               className="text-center shadow-lg"
-              style={{ width: "23rem", fontSize: "1rem" }}
+              style={{ width: "100%", fontSize: "1rem" }}
             >
               <Card.Img
                 variant="top"
                 src={bookPic}
-                style={{ height: "65vh" }}
+                style={{ height: "50vh" }}
               />
               <Card.Body>
                 {/* <Card.Title as="h3" style={{ fontSize: "2rem" }}>
@@ -50,12 +50,12 @@ function MiLibro() {
           <Col>
             <Card
               className="text-center shadow-lg"
-              style={{ width: "21rem", fontSize: "1rem" }}
+              style={{ width: "100%", fontSize: "1rem" }}
             >
               <Card.Img
                 variant="top"
                 src={comingSoonPic}
-                style={{ height: "65vh" }}
+                style={{ height: "50vh" }}
               />
               <Card.Body>
                 <Card.Title as="h3" style={{ fontSize: "1.5rem" }}>
@@ -69,12 +69,12 @@ function MiLibro() {
           <Col>
             <Card
               className="text-center shadow-lg"
-              style={{ width: "21rem", fontSize: "1rem" }}
+              style={{ width: "100%", fontSize: "1rem" }}
             >
               <Card.Img
                 variant="top"
                 src={comingSoonPic}
-                style={{ height: "65vh" }}
+                style={{ height: "50vh" }}
               />
               <Card.Body>
                 <Card.Title as="h3" style={{ fontSize: "1.5rem" }}>

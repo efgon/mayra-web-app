@@ -11,7 +11,7 @@ function Publicaciones(props) {
         <Col lg>
           <div
             className="text-center shadow-lg d-block mx-auto mt-5"
-            style={{ width: "18rem", fontSize: "1rem" }}
+            style={{ width: "100%", fontSize: "1rem" }}
           >
             <Card.Img
               variant="top"
@@ -30,7 +30,7 @@ function Publicaciones(props) {
         <Col>
           <div
             className="text-center shadow-lg d-block mx-auto mt-5"
-            style={{ width: "18rem", fontSize: "1rem" }}
+            style={{ width: "100%", fontSize: "1rem" }}
           >
             <Card.Img
               variant="top"
