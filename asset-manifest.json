@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mayra-web-app/static/css/main.a3ce6fc4.chunk.css",
-    "main.js": "/mayra-web-app/static/js/main.efd83525.chunk.js",
-    "main.js.map": "/mayra-web-app/static/js/main.efd83525.chunk.js.map",
+    "main.js": "/mayra-web-app/static/js/main.d8cef61a.chunk.js",
+    "main.js.map": "/mayra-web-app/static/js/main.d8cef61a.chunk.js.map",
     "runtime-main.js": "/mayra-web-app/static/js/runtime-main.4eeaec67.js",
     "runtime-main.js.map": "/mayra-web-app/static/js/runtime-main.4eeaec67.js.map",
     "static/css/2.818011ed.chunk.css": "/mayra-web-app/static/css/2.818011ed.chunk.css",
@@ -36,6 +36,6 @@
     "static/css/2.818011ed.chunk.css",
     "static/js/2.0739b033.chunk.js",
     "static/css/main.a3ce6fc4.chunk.css",
-    "static/js/main.efd83525.chunk.js"
+    "static/js/main.d8cef61a.chunk.js"
   ]
 }
