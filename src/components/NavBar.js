@@ -4,7 +4,7 @@ function NavBar() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="/mayra-web-app">
+        <Navbar.Brand href="/MayraMaldonado">
           Mayra Maldonado Brignoni
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
