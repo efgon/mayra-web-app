@@ -23,7 +23,7 @@ function MiLibro() {
           Publicaciones:
         </Card.Title>
         <Row className="justify-content-lg-around justify-content-around justify-content-sm-center align-content-lg-between align-content-center justify-content-lg-center">
-          <Col>
+          <Col lg>
             <Card
               className="text-center shadow-lg"
               style={{ width: "100%", fontSize: "1rem" }}
@@ -47,7 +47,7 @@ function MiLibro() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          <Col lg>
             <Card
               className="text-center shadow-lg"
               style={{ width: "100%", fontSize: "1rem" }}
