@@ -4,7 +4,7 @@ function Header(props) {
     <>
       <div className="text-center" style={{}}>
         <Card.Body>
-          <Card.Text as="h1" style={{ fontSize: "10vh" }}>
+          <Card.Text as="h1" style={{ fontSize: "3rem" }}>
             {props.text}
           </Card.Text>
         </Card.Body>
