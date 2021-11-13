@@ -8,7 +8,7 @@ import FollowMe from "../components/FollowMe";
 
 function QueOfrecemosView() {
   return (
-    <div className="App que-ofrecemos">
+    <div className="App que-ofrecemos card-body">
       <NavBar />
 
       <Header text="Servicios" src />
