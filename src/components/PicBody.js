@@ -7,18 +7,22 @@ function PicBody(props) {
     <Container fluid className="">
       <Row className="justify-content-lg-around align-content-lg-between">
         <Col lg={3}>
-          <div className="text-center" style={{ }}>
+          <Card className="text-center bg-transparent border-0" style={{}}>
             <Card.Img variant="top" src={props.src} style={{}} />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>{props.text2}</Card.Text>
             </Card.Body>
-          </div>
+          </Card>
         </Col>
         <Col lg={6}>
           <Card
             className="text-center border-0 shadow mb-sm-5 mt-lg-3"
-            style={{ fontSize: "1.5rem", lineHeight: "2", backgroundColor: 'yellow' }}
+            style={{
+              fontSize: "1.5rem",
+              lineHeight: "2",
+              backgroundColor: "yellow",
+            }}
           >
             {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
             <Card.Body>

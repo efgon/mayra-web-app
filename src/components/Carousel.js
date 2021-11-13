@@ -8,7 +8,7 @@ function PicCarousel() {
     <div className="">
       <Carousel
         className=""
-        style={{ width: "50%", marginLeft: "auto", marginRight: "auto" }}
+        style={{ width: "70%", marginLeft: "auto", marginRight: "auto" }}
       >
         <Carousel.Item>
           <img className="d-block w-100" src={carpic1} alt="First slide" />

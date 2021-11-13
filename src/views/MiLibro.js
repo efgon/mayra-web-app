@@ -25,7 +25,7 @@ function MiLibro() {
         <Row className="justify-content-lg-around justify-content-around justify-content-sm-center align-content-lg-between align-content-center justify-content-lg-center">
           <Col lg>
             <Card
-              className="text-center shadow-lg"
+              className="text-center shadow-lg mt-2 mb-2"
               style={{ width: "100%", fontSize: "1rem" }}
             >
               <Card.Img
@@ -49,7 +49,7 @@ function MiLibro() {
           </Col>
           <Col lg>
             <Card
-              className="text-center shadow-lg"
+              className="text-center shadow-lg mt-2 mb-2"
               style={{ width: "100%", fontSize: "1rem" }}
             >
               <Card.Img
@@ -68,7 +68,7 @@ function MiLibro() {
           </Col>
           <Col>
             <Card
-              className="text-center shadow-lg"
+              className="text-center shadow-lg mt-2 mb-2"
               style={{ width: "100%", fontSize: "1rem" }}
             >
               <Card.Img

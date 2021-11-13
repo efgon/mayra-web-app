@@ -36,7 +36,7 @@ function SobreMiHeader(props) {
           </Card>
         </Col>
         <Col lg={3}>
-          <Card.Img className="" src={props.src1}></Card.Img>
+          <Card.Img className="w-100" src={props.src1}></Card.Img>
         </Col>
       </Row>
       <Row>
@@ -70,7 +70,7 @@ function SobreMiHeader(props) {
           </Card>
         </Col>
         <Col>
-          <Card.Img src={props.src2}></Card.Img>
+          <Card.Img src={props.src2} className="w-100"></Card.Img>
         </Col>
       </Row>
     </Container>

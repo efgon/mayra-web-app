@@ -15,7 +15,7 @@ import SobreMiGallery from "../components/SobreMiGallery";
 
 function SobreMi() {
   return (
-    <div className="App sobre-mi">
+    <div className="App sobre-mi ">
       <NavBar />
       <SobreMiHeader src1={aboutPic} src2={aboutPic2} />
       <Container fluid>

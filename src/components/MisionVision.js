@@ -6,8 +6,8 @@ function MisionVision(props) {
     <Container fluid className="mt-5 mb-5">
       <Row>
         <Col lg>
-          <div
-            className="text-center yellow"
+          <Card
+            className="text-center border-0 bg-transparent yellow"
             style={{ width: "100%", fontSize: "1rem" }}
           >
             {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
@@ -20,11 +20,11 @@ function MisionVision(props) {
               <Card.Text>{props.text3}</Card.Text>
               <Card.Text>{props.text4}</Card.Text>
             </Card.Body>
-          </div>
+          </Card>
         </Col>
         <Col>
-          <div
-            className="text-center yellow"
+          <Card
+            className="text-center border-0 bg-transparent yellow"
             style={{ width: "100%", fontSize: "1rem" }}
           >
             <Card.Body>
@@ -34,7 +34,7 @@ function MisionVision(props) {
               <Card.Text>{props.text5}</Card.Text>
               <Card.Text>{props.text6}</Card.Text>
             </Card.Body>
-          </div>
+          </Card>
         </Col>
       </Row>
     </Container>

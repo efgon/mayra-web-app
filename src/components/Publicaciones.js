@@ -9,8 +9,8 @@ function Publicaciones(props) {
       </Card.Title>
       <Row className="justify-content-lg-around justify-content-around justify-content-sm-center align-content-lg-between align-content-center justify-content-lg-center">
         <Col lg>
-          <div
-            className="text-center shadow-lg d-block mx-auto mt-5"
+          <Card
+            className="text-center shadow-lg d-block mx-auto mt-5 bg-transparent border-0"
             style={{ width: "100%", fontSize: "1rem" }}
           >
             <Card.Img
@@ -25,11 +25,11 @@ function Publicaciones(props) {
               <Card.Text>{props.text1}</Card.Text>
               <Button variant="warning">Quiero ver mas!</Button>
             </Card.Body>
-          </div>
+          </Card>
         </Col>
         <Col>
-          <div
-            className="text-center shadow-lg d-block mx-auto mt-5"
+          <Card
+            className="text-center shadow-lg d-block mx-auto mt-5 bg-transparent border-0"
             style={{ width: "100%", fontSize: "1rem" }}
           >
             <Card.Img
@@ -44,7 +44,7 @@ function Publicaciones(props) {
               <Card.Text>{props.text2}</Card.Text>
               {/* <Button variant="primary">Quiero ver mas!</Button> */}
             </Card.Body>
-          </div>
+          </Card>
         </Col>
       </Row>
     </Container>
