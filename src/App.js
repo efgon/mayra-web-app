@@ -8,6 +8,7 @@ import SobreMi from "./views/SobreMi";
 import MiLibro from "./views/MiLibro";
 import QueOfrecemosView from "./views/QueOfrecemosView";
 import PodcastView from "./views/PodcastView";
+import Noticias from "./views/Noticias";
 import { Fade } from "react-bootstrap";
 
 function App() {
@@ -19,8 +20,8 @@ function App() {
         <Route path="/QueOfrecemos" component={QueOfrecemosView}></Route>
         <Route exact path="/MiLibro" component={MiLibro}></Route>
         <Route path="/Podcast" component={PodcastView}></Route>
+        <Route path="/Noticias" component={Noticias}></Route>
         <Route path="/Contactos" component={PodcastView}></Route>
-        <Route path="/Noticias" component={PodcastView}></Route>
       </Switch>
     </Fade>
   );

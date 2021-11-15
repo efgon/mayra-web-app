@@ -27,8 +27,8 @@ function Footer() {
         </Nav.Item>
       </Nav>
       <p>
-        Copyright © 2021 - 22 · www.MayraMaldonado.com · Todos los derechos
-        reservados.
+        Copyright © 2021 - 22 · www.valoresfamiliares-empresariales.com · Todos
+        los derechos reservados.
       </p>
     </>
   );

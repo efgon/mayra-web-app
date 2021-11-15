@@ -4,9 +4,7 @@ import { Card, ListGroup } from "react-bootstrap";
 function QueOfrecemos(props) {
   return (
     <Container className="mt-5 mb-5 text-center">
-      <Card.Title as="h3" style={{ fontSize: "2rem" }}>
-        Servicios:
-      </Card.Title>
+      <Card.Title as="h3" style={{ fontSize: "2rem" }}></Card.Title>
       <Row className="justify-content-center align-content-center justify-content-lg-around">
         <Col lg>
           <Card
@@ -47,12 +45,12 @@ function QueOfrecemos(props) {
               <ListGroup.Item className="bg-transparent">
                 {props.text7}
               </ListGroup.Item>
-              <ListGroup.Item className="bg-transparent">
+              {/* <ListGroup.Item className="bg-transparent">
                 {props.text8}
               </ListGroup.Item>
               <ListGroup.Item className="bg-transparent">
                 {props.text10}
-              </ListGroup.Item>
+              </ListGroup.Item> */}
             </ListGroup>
           </Card>
         </Col>

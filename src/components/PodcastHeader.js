@@ -1,11 +1,9 @@
 import { Card } from "react-bootstrap";
-function Header(props) {
+
+function PodcastHeader(props) {
   return (
     <>
-      <Card
-        className="text-center border-0 bg-transparent"
-        style={{ color: "yellow" }}
-      >
+      <Card className="text-center border-0 bg-transparent " style={{}}>
         <Card.Body>
           <Card.Text as="h1" style={{ fontSize: "3rem" }}>
             {props.text}
@@ -16,4 +14,4 @@ function Header(props) {
     </>
   );
 }
-export default Header;
+export default PodcastHeader;

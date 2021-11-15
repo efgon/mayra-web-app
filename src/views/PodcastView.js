@@ -1,5 +1,5 @@
 import NavBar from "../components/NavBar";
-import Header from "../components/Header";
+import PodcastHeader from "../components/PodcastHeader";
 
 import headerPic from "../img/coming-soon.png";
 import Footer from "../components/Footer";
@@ -9,7 +9,7 @@ function PodcastView() {
     <div className="App">
       <NavBar />
 
-      <Header text="Mayra Maldonado Brignoni PODCAST" src={headerPic} />
+      <PodcastHeader text="Mayra Maldonado Brignoni PODCAST" src={headerPic} />
       <Footer />
     </div>
   );

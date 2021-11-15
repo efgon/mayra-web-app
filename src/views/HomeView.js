@@ -14,6 +14,7 @@ import bookPic2 from "../img/coming soon amarillo.png";
 import MisionVision from "../components/MisionVision";
 import Publicaciones from "../components/Publicaciones";
 import QueOfrecemos from "../components/QueOfrecemos";
+import { Card } from "react-bootstrap";
 
 function HomeView() {
   return (
@@ -27,16 +28,27 @@ function HomeView() {
         title=""
         text1="Nos dedicamos a educar y reeducar sobre valores. Las buenas formas de vivir, tratar y esperar que con el ejemplo otros aprendan la ética de la sana convivencia. Llevamos nuestra educación con publicaciones, talleres y más."
       />
-      <MisionVision
-        title="Misión:"
-        text1="Reeducar y educar sobre valores: "
-        text2="Las formas de tratarse en familia."
-        text3="Trato a comunidades, amistades, personas conocidas y no conocidas."
-        text4="Comportamiento en diferentes lugares (hogar, vecinos, trabajos…)"
-        title2="Objetivo:"
-        text5="Que las familias eduquen y ofrezcan el mejor ejemplo a sus menores y jóvenes."
-        text6=" Que todos se traten con valores como son el respeto, amor, dignidad, tolerancia… "
-      />
+      <Card
+        className="text-center border-0 shadow mb-sm-5 mt-lg-3 mb-5"
+        style={{
+          fontSize: "1.5rem",
+          lineHeight: "2",
+          backgroundColor: "yellow",
+        }}
+      >
+        {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+        <Card.Body>
+          <Card.Title as="h2" style={{ fontSize: "1.5rem" }}></Card.Title>
+          <Card.Text>
+            <em>
+              Nos dedicamos a educar y reeducar sobre valores. Las buenas formas
+              de vivir, tratar y esperar que con el ejemplo otros aprendan la
+              ética de la sana convivencia. Llevamos nuestra educación con
+              publicaciones, talleres y más.
+            </em>
+          </Card.Text>
+        </Card.Body>
+      </Card>
 
       <Publicaciones
         containerTitle="Publicaciones: "
@@ -44,8 +56,8 @@ function HomeView() {
         // title="Hoy... Porque Mañana Podria Ser Tarde"
         text1="Ayer era hoy y... ayer prometía ser mañana ... Hoy hablaremos de lo que hicimos ayer y de lo que haremos hoy y quizás mañana ... Si no se pudo ayer y tampoco hoy, lo intentaremos después... Tratemos no dejar lo que queremos hacer hoy... "
         src2={bookPic2}
-        title2="Desarrolla tu 'Pazciencia'"
-        text2="Coming Soon!"
+        title2='Desarrolla tu "Pazciencia"'
+        text2="Coming Soon"
       />
 
       <QueOfrecemos
@@ -55,10 +67,10 @@ function HomeView() {
         text4="Conferencias"
         text9="Más"
         title5="¿Para Quién?"
-        text6="Para todo tipo de Familia"
-        text7="Familia Convencional"
-        text8="Familia Directa e indirecta"
-        text10="Familia Empresarial"
+        text6="Para todo integrante en la Familia"
+        text7="Familia Empresarial"
+        text8=""
+        text10=""
       />
       {/* <PicCarousel /> */}
       <FollowMe />

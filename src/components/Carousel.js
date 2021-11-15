@@ -1,6 +1,6 @@
 import Carousel from "react-bootstrap/Carousel";
 import carpic1 from "../img/carpic1.jpeg";
-import carpic2 from "../img/carpic2.jpeg";
+import carpic2 from "../img/sobre-mi-pic2.jpg";
 import carpic3 from "../img/carpic3.jpeg";
 
 function PicCarousel() {

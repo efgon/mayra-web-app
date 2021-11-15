@@ -25,10 +25,15 @@ function NavBar() {
             <LinkContainer to="/Podcast">
               <Nav.Link>Podcast</Nav.Link>
             </LinkContainer>
+            <LinkContainer to="/Noticias">
+              <Nav.Link> Noticias y Educación</Nav.Link>
+            </LinkContainer>
             {/* <NavDropdown title="Mas" id="basic-nav-dropdown">
-              <NavDropdown.Item to="/Contactos">Contactos</NavDropdown.Item>
+              <NavDropdown.Item to="/Noticias">
+                Noticias y Educación
+              </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item to="/Noticias">Noticias</NavDropdown.Item>
+              <NavDropdown.Item to="/Contactos">Contactos</NavDropdown.Item>
             </NavDropdown> */}
           </Nav>
         </Navbar.Collapse>

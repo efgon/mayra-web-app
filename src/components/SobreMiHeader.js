@@ -14,10 +14,10 @@ function SobreMiHeader(props) {
           >
             <Card.Body>
               <Card.Title as="h2" style={{ fontSize: "2rem" }}>
-                Familia:
+                <strong>Familia</strong>
               </Card.Title>
               <Card.Text>
-                Nació en San Juan, Puerto Rico el 4 de abril de 1956.
+                Nació en San Juan, Puerto Rico el 4 de abril.
               </Card.Text>
               <Card.Text>
                 Mayra es la tercera de una familia de seis hijos. Sus padres son
@@ -47,7 +47,7 @@ function SobreMiHeader(props) {
           >
             <Card.Body>
               <Card.Title as="h2" style={{ fontSize: "2rem" }}>
-                Trayectoria Profesional:
+                <strong>Trayectoria Profesional</strong>
               </Card.Title>
               <Card.Text>
                 Estudió escuela superior en la Escuela Gabriela Mistral, y Trina

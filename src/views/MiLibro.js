@@ -13,15 +13,13 @@ function MiLibro() {
   return (
     <div className="App libros">
       <NavBar />
-      <Header text="Libros" src={""} />
+      <Header text="Publicaciones" src={""} />
       <Container fluid className="mb-5">
         <Card.Title
           as="h3"
           className="text-center"
           style={{ fontSize: "2rem" }}
-        >
-          Publicaciones:
-        </Card.Title>
+        ></Card.Title>
         <Row className="justify-content-lg-around justify-content-around justify-content-sm-center align-content-lg-between align-content-center justify-content-lg-center">
           <Col lg>
             <Card
@@ -43,7 +41,12 @@ function MiLibro() {
                   ... Si no se pudo ayer y tampoco hoy, lo intentaremos
                   después... Tratemos no dejar lo que queremos hacer hoy...
                 </Card.Text>
-                <Button variant="primary">Obtener!!</Button>
+                <Button
+                  variant="primary"
+                  href="https://www.amazon.com/dp/B09LVWKLVG/ref=sr_1_4?keywords=HOY&qid=1637004567&s=digital-text&sr=1-4"
+                >
+                  OBTENER
+                </Button>
               </Card.Body>
             </Card>
           </Col>
@@ -59,9 +62,9 @@ function MiLibro() {
               />
               <Card.Body>
                 <Card.Title as="h3" style={{ fontSize: "1.5rem" }}>
-                  "Desarrolla tu 'Pazciencia'"
+                  Desarrolla tu "Pazciencia"
                 </Card.Title>
-                <Card.Text>"Coming Soon!"</Card.Text>
+                <Card.Text>Coming Soon</Card.Text>
                 {/* <Button variant="primary">Quiero ver mas!</Button> */}
               </Card.Body>
             </Card>
@@ -78,9 +81,9 @@ function MiLibro() {
               />
               <Card.Body>
                 <Card.Title as="h3" style={{ fontSize: "1.5rem" }}>
-                  "Viva con Valores"
+                  Vive con Valores
                 </Card.Title>
-                <Card.Text>"Coming Soon!"</Card.Text>
+                <Card.Text>Coming Soon</Card.Text>
                 {/* <Button variant="primary">Quiero ver mas!</Button> */}
               </Card.Body>
             </Card>

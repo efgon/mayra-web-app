@@ -3,6 +3,7 @@ import backImg from "../img/contactanos.jpg";
 import facebookLogo from "../img/facebook-logo.png";
 import instagramLogo from "../img/instagram_icon.png";
 import youtubeLogo from "../img/Youtube_logo_5.png";
+import emailIcon from "../img/email-icon.jpg";
 import { Container, Row, Col, Card } from "react-bootstrap";
 function FollowMe() {
   return (
@@ -30,7 +31,7 @@ function FollowMe() {
 
         <Col className="" style={{}}>
           <Col className="">
-            <a href="https://facebook.com/">
+            <a href="https://www.facebook.com/mmbrignoni">
               <Card.Img
                 className="d-block mx-auto"
                 src={facebookLogo}
@@ -39,7 +40,7 @@ function FollowMe() {
             </a>
           </Col>
           <Col>
-            <a href="https://instagram.com/">
+            <a href="https://www.instagram.com/mayrambrignoni/?hl=es-la">
               <Card.Img
                 className="d-block mx-auto"
                 src={instagramLogo}
@@ -48,17 +49,31 @@ function FollowMe() {
             </a>
           </Col>
         </Col>
+        <Col>
+          <Col className="" style={{}}>
+            <a href="mailto:mayrambrignoni@gmail.com">
+              <Card.Img
+                className="d-block mx-auto"
+                src={emailIcon}
+                style={{ width: "25%" }}
+              />
+              {/* <Col lg={1}>
+                <Card.Text className="text-primary">
+                  mayrambrignoni@gmail.com
+                </Card.Text>
+              </Col> */}
+            </a>
+          </Col>
 
-        <Col className="" style={{}}>
-          {/* <Col> */}
-          <a href="https://youtube.com/">
-            <Card.Img
-              className="d-block mx-auto"
-              src={youtubeLogo}
-              style={{ width: "35%" }}
-            />
-          </a>
-          {/* </Col> */}
+          <Col>
+            <a href="https://youtube.com/">
+              <Card.Img
+                className="d-block mx-auto"
+                src={youtubeLogo}
+                style={{ width: "25%" }}
+              />
+            </a>
+          </Col>
         </Col>
       </Row>
     </Container>
