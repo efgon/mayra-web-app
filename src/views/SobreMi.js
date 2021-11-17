@@ -67,7 +67,7 @@ function SobreMi() {
                 La profesora Mayra Maldonado Brignoni, tiene varias
                 publicaciones como son: ABC para Padres, ABC para Hijos de
                 Puerto Rico y el mundo, La Virtud del Amor para relaciones
-                saludables. Durante el mes de abril la profesora Mayra Maldonado
+                saludables. Durante el mes de abril la profesora Mayra M
                 Brignoni, publicó el libro: Hoy… porque mañana podría ser tarde.
                 Proximamente publicará los libros Vive con valores, Desarrolla
                 tu ¨Pazciencia¨, Técnicas de "Buentrato", los cuales tienen como

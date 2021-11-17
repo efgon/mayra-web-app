@@ -6,7 +6,7 @@ function SobreMiHeader(props) {
       <Row className="">
         <Col lg={9}>
           <Card.Title as="h1" style={{ fontSize: "3rem" }}>
-            Mayra De Lourdes Maldonado Brignoni
+            Mayra M Brignoni
           </Card.Title>
           <Card
             className="border-0 bg-transparent"

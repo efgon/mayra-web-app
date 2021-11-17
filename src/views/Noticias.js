@@ -1,7 +1,6 @@
 import NavBar from "../components/NavBar";
 import PodcastHeader from "../components/PodcastHeader";
 
-import headerPic from "../img/coming-soon.png";
 import Footer from "../components/Footer";
 import { Container, Row, Col, Card } from "react-bootstrap";
 
@@ -18,7 +17,7 @@ function Noticias() {
               <Card.Body>
                 <Card.Title style={{ fontSize: "3rem" }}>Noticias</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">
-                  Algunas noticias sobre valores familiares y Mayra Maldonado
+                  Algunas noticias sobre valores familiares y Mayra M Brignoni
                 </Card.Subtitle>
                 <Card.Text></Card.Text>
               </Card.Body>

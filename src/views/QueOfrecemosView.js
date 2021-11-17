@@ -4,6 +4,8 @@ import Servicios1 from "../components/Servicios1";
 import Footer from "../components/Footer";
 import { Card } from "react-bootstrap";
 import FollowMe from "../components/FollowMe";
+import FadeInSection from "../components/FadeInSection";
+
 // import headerPic from "../img/coming-soon.png";
 
 function QueOfrecemosView() {
@@ -45,6 +47,25 @@ function QueOfrecemosView() {
         text44="4. La comunicación efectiva está ligada a la actitud"
         text45="5. Siempre hay espacio para mejorar…"
       />
+      <FadeInSection>
+        <Card
+          className="w-25 shadow  mx-auto mt-3 mb-3 text-center"
+          style={{ fontSize: "2.5rem" }}
+        >
+          <Card.Body>
+            <Card.Text>
+              Para entrevista, conferencias, presentaciones y escritos se pueden
+              comunicar con su autora escribiendo a:
+            </Card.Text>
+            <Card.Text style={{ fontSize: "1.5rem" }}>
+              <a href="mailto:mayrambrignoni@gmail.com">
+                {" "}
+                mayrambrignoni@gmail.com{" "}
+              </a>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </FadeInSection>
       <FollowMe />
       <Footer />
     </div>

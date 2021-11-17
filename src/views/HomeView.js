@@ -6,14 +6,9 @@ import Footer from "../components/Footer";
 import profilePic from "../img/image44.jpeg";
 import bookPic from "../img/Diseno-sin-titulo.png";
 import bookPic2 from "../img/coming soon amarillo.png";
-// import headerPic from "../img/valores IMAGEN.jpg";
-// import bookPic3 from "../img/IMG_E4213.JPG";
-// import talleresPic from "../img/carpic2.jpeg";
-// import tutoriasPic from "../img/AdobeStock_47186368.jpeg";
-// import BodyPic from "../components/BodyPic";
-import MisionVision from "../components/MisionVision";
 import Publicaciones from "../components/Publicaciones";
 import QueOfrecemos from "../components/QueOfrecemos";
+import FadeInSection from "../components/FadeInSection";
 import { Card } from "react-bootstrap";
 
 function HomeView() {
@@ -51,9 +46,8 @@ function HomeView() {
       </Card>
 
       <Publicaciones
-        containerTitle="Publicaciones: "
+        containerTitle="Publicaciones "
         src={bookPic}
-        // title="Hoy... Porque Mañana Podria Ser Tarde"
         text1="Ayer era hoy y... ayer prometía ser mañana ... Hoy hablaremos de lo que hicimos ayer y de lo que haremos hoy y quizás mañana ... Si no se pudo ayer y tampoco hoy, lo intentaremos después... Tratemos no dejar lo que queremos hacer hoy... "
         src2={bookPic2}
         title2='Desarrolla tu "Pazciencia"'
@@ -72,7 +66,25 @@ function HomeView() {
         text8=""
         text10=""
       />
-      {/* <PicCarousel /> */}
+      <FadeInSection>
+        <Card
+          className="w-25 shadow  mx-auto mt-3 mb-3 text-center"
+          style={{ fontSize: "2.5rem" }}
+        >
+          <Card.Body>
+            <Card.Text>
+              Para entrevista, conferencias, presentaciones y escritos se pueden
+              comunicar con su autora escribiendo a:
+            </Card.Text>
+            <Card.Text style={{ fontSize: "1.5rem" }}>
+              <a href="mailto:mayrambrignoni@gmail.com">
+                {" "}
+                mayrambrignoni@gmail.com{" "}
+              </a>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </FadeInSection>
       <FollowMe />
       <Footer />
     </div>

@@ -9,7 +9,7 @@ function PodcastView() {
     <div className="App">
       <NavBar />
 
-      <PodcastHeader text="Mayra Maldonado Brignoni PODCAST" src={headerPic} />
+      <PodcastHeader text="Mayra M Brignoni PODCAST" src={headerPic} />
       <Footer />
     </div>
   );
