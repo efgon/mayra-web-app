@@ -68,7 +68,7 @@ function HomeView() {
       />
       <FadeInSection>
         <Card
-          className="w-25 shadow  mx-auto mt-3 mb-3 text-center"
+          className="w-75  shadow  mx-auto mt-3 mb-3 text-center"
           style={{ fontSize: "2.5rem" }}
         >
           <Card.Body>
